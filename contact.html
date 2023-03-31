@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphicsForU</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+    body {
+      font-family: "Open Sans"
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- Navigation bar with social media icons -->
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="/index.html" class="w3-bar-item w3-button"><i>About Us</i></a>
+    <a href="/index.html#Our Services" class="w3-bar-item w3-button"><i>Our Services</i></a>
+    <a href="/index.html#Designs" class="w3-bar-item w3-button"><i>Designs</i></a>
+    <a href="/contact.html" class="w3-bar-item w3-button"><i>Contact Us</i></a>
+
+    <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+  
+   <!-- new contact form  -->
+   
+		<div class = "frame">
+<div id = "button_open_envelope">
+				Email me
+			</div>
+			<div class = "message">
+				<form method="post" action="https://formspree.io/f/xjvdozpy">
+
+					<input type="text" 
+          name="name" 
+          id="name" 
+          placeholder=" Name* "
+          autocomplete="off"
+          required
+          />
+			
+					<input 
+          type="email"
+          name="email" 
+          id="email" 
+          autocomplete="off"
+          placeholder="ab@mail.com* " 
+          />
+				
+					<input 
+          type="text" 
+          name="phone" 
+          id="phone" 
+          autocomplete="off"
+          placeholder=" Phone (optional)" 
+          autofocus> 
+				
+					<textarea 
+          name="message" 
+          id="messarea" 
+          placeholder=" Message* " 
+          autocomplete="off"
+          required>
+        </textarea>
+			
+					<input type="text" 
+          name="address" 
+          id="address" 
+          autocomplete="off"
+          style="display: none;">
+
+					<input type="submit" 
+          value="Send" 
+          id="send">
+
+				</form>
+			</div>
+			<div class = "bottom"></div>			
+			<div class = "left"></div>
+			<div class = "right"></div>
+			<div class = "top"></div>
+			<script src="script.js"></script>
+		</div>
+	
+  
+</body>
+</html>

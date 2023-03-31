@@ -8,7 +8,7 @@
 
 
 require(dotenv).config()
-const nodeMailer = require('nodemailer')
+const nodeMailer = require('node
 
 const transporter = await nodeMailer.createTransport({
   service: 'gmail',
